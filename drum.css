@@ -1,0 +1,52 @@
+  html {
+    font-size: 10px;
+    background: url('./images/drum.jpg');
+    background-size: cover;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  .keys {
+    display: flex;
+    min-height: 100vh;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  
+  .key {
+    border: .4rem solid black;
+    border-radius: .8rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: url('./images/drum-cat.png');
+    background-size: cover;
+    text-shadow: 0 0 .5rem black;
+  }
+
+  .playing {
+    transform: scale(1.1);
+    border-color: #2294f1;
+    box-shadow: 0 0 1rem #00fff2;
+  }
+
+  kbd {
+    display: block;
+    font-size: 5rem;
+  }
+  
+  .sound {
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    color: #55f3f8;
+    text-shadow: 0 0 rem black;
+  }
